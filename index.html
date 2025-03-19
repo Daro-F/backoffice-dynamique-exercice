@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Market</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="aside">
+            <div class="column">
+                <div class="logo">
+                    <img src="/assets/logo.png" alt="logo">
+                </div>
+                <nav class="sidebar">
+                    <ul>
+                        <li><a href="#" id="comptabilite"><i class="fas fa-file-alt"></i>Comptabilité</a></li>
+                        <li><a href="#" id="produits" class="active"><i class="fas fa-shopping-bag"></i>Produits</a></li>
+                        <li><a href="#" id="fournisseurs"><i class="fas fa-truck"></i>Fournisseurs</a></li>
+                        <li><a href="#" id="commandes"><i class="fas fa-box"></i>Commandes</a></li>
+                        <li><a href="#" id="parametres"><i class="fas fa-cog"></i>Paramètres</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="sub-title">
+                <h2>Liste des produits</h2>
+            </div>
+
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" id="search" placeholder="Rechercher">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <button class="add-btn" id="addProduct"><i class="fas fa-plus"></i> Ajouter</button>
+            </div>
+
+            <div id="table-container" class="container-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Référence</th>
+                            <th>Catégorie</th>
+                            <th>Libélle</th>
+                            <th>Prix</th>
+                            <th>En stock</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="product-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

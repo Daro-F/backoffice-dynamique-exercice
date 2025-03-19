@@ -1,0 +1,46 @@
+.modif-text {
+    text-align: left;
+}
+
+.modif-text label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.modif-text input, .modif-text textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.save-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn {
+    right: -10px;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-btn:hover, .close-btn:hover {
+    opacity: 0.8;
+}
+
+.container.blur {
+    filter: blur(5px);
+}
