@@ -1,6 +1,6 @@
-@import url("assets/css/modals/view-modal/style.css");
-@import url("assets/css/modals/modif-modal/style.css");
-@import url("assets/css/modals/add-modal/style.css");
+@import url("./assets/css/modals/view-modal/style.css");
+@import url("./assets/css/modals/modif-modal/style.css");
+@import url("./assets/css/modals/add-modal/style.css");
 
 * {
     margin: 0;
